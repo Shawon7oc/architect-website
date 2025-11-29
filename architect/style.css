@@ -37,6 +37,10 @@ main {
 main > section {
   margin-top: 130px;
 }
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
 /* header styles */
 
 /* navbar related styles */
@@ -97,15 +101,14 @@ main > section {
   margin-top: 24px;
   margin-bottom: 32px;
 }
-.feature-title {
-  font-size: 3rem;
-  color: #ff900e;
-}
-.feature-title .list {
+.list {
   font-weight: 500;
 }
-.feature-title .our {
+.our {
   font-weight: 700;
+}
+.fer{
+  color: #ff900e;
 }
 
 /* responsive */
