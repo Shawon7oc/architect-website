@@ -30,6 +30,13 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
+}
 /* header styles */
 
 /* navbar related styles */
@@ -71,6 +78,36 @@
 .banner-imgs{
     width: 100%;
 }
+/* teams and features related styles */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin: 130px;
+    max-width: 530px;
+}
+.feature-description{
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.feature-title{
+    font-size: 3rem;
+    color: #FF900E;
+}
+.feature-title .list{
+    font-weight: 500;
+}
+.feature-title .our{
+    font-weight: 700;
+}
+
+
 /* responsive */
 @media screen and (max-width:576px) {
     .navbar,.nav-links{
